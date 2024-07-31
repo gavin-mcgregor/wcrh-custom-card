@@ -7,10 +7,44 @@
  *
  * Replace them with your own styles or remove the file completely.
  */
-.wp-block-wcrh-custom-card {
-  background-color: #21759b;
-  color: #fff;
-  padding: 2px;
+.wp-block-wcrh-custom-form {
+  width: 100%;
+}
+.wp-block-wcrh-custom-form .form-row {
+  margin-bottom: 1rem;
+}
+.wp-block-wcrh-custom-form label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+.wp-block-wcrh-custom-form input,
+.wp-block-wcrh-custom-form textarea {
+  border: 1px var(--wp--preset--color--contrast) solid;
+  background-color: var(--wp--preset--color--transparent);
+  font-size: var(--wp--preset--font-size--medium);
+  width: 100%;
+  padding: 0.25rem 0.5rem;
+}
+.wp-block-wcrh-custom-form textarea {
+  height: 10rem;
+}
+.wp-block-wcrh-custom-form input[type=submit] {
+  width: unset;
+  background-color: var(--wp--preset--color--contrast);
+  border-radius: 0.33rem;
+  border-color: var(--wp--preset--color--contrast);
+  border-width: 0;
+  color: var(--wp--preset--color--base);
+  font-family: inherit;
+  font-size: var(--wp--preset--font-size--small);
+  font-style: normal;
+  font-weight: 400;
+  line-height: inherit;
+  padding-top: 0.75rem;
+  padding-right: var(--wp--preset--spacing--10);
+  padding-bottom: 0.75rem;
+  padding-left: var(--wp--preset--spacing--10);
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style-index.css.map*/
