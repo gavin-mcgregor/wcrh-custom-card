@@ -3,7 +3,7 @@
   "apiVersion": 3,
   "name": "wcrh/custom-form",
   "version": "0.1.0",
-  "title": "Custom Form",
+  "title": "Form",
   "category": "custom-block",
   "example": {},
   "supports": {
