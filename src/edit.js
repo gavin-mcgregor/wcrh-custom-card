@@ -33,18 +33,51 @@ export default function Edit() {
 	return (
 		<div {...useBlockProps()}>
 			<div className="form-row">
-				<label for="name">Name:</label>
-				<input type="text" id="name" name="name" required />
+				<label for="name">Full Name:</label>
+				<input
+					className="form-input"
+					type="text"
+					id="name"
+					name="name"
+					required
+				/>
 			</div>
 			<div className="form-row">
-				<label for="email">Email:</label>
-				<input type="email" id="email" name="email" required />
+				<label for="email">Email Address:</label>
+				<input
+					className="form-input"
+					type="email"
+					id="email"
+					name="email"
+					required
+				/>
+			</div>
+			<div className="form-row">
+				<label for="phone">Phone Number:</label>
+				<input
+					className="form-input"
+					type="text"
+					id="phone"
+					name="phone"
+					required
+				/>
 			</div>
 			<div className="form-row">
 				<label for="message">Message:</label>
-				<textarea id="message" name="message" required></textarea>
+				<textarea
+					className="form-input"
+					id="message"
+					name="message"
+					required
+				></textarea>
 			</div>
-			<input type="submit" id="form-submit" name="form-submit" value="Submit" />
+			<input
+				className="wp-block-button__link wp-element-button"
+				type="submit"
+				id="form-submit"
+				name="form-submit"
+				value="Submit"
+			/>
 		</div>
 	);
 }

@@ -82,7 +82,8 @@ function Edit() {
     className: "form-row"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("label", {
     for: "name"
-  }, "Name:"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("input", {
+  }, "Full Name:"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("input", {
+    className: "form-input",
     type: "text",
     id: "name",
     name: "name",
@@ -91,7 +92,8 @@ function Edit() {
     className: "form-row"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("label", {
     for: "email"
-  }, "Email:"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("input", {
+  }, "Email Address:"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("input", {
+    className: "form-input",
     type: "email",
     id: "email",
     name: "email",
@@ -99,12 +101,24 @@ function Edit() {
   })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "form-row"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("label", {
+    for: "phone"
+  }, "Phone Number:"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("input", {
+    className: "form-input",
+    type: "text",
+    id: "phone",
+    name: "phone",
+    required: true
+  })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    className: "form-row"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("label", {
     for: "message"
   }, "Message:"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("textarea", {
+    className: "form-input",
     id: "message",
     name: "message",
     required: true
   })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("input", {
+    className: "wp-block-button__link wp-element-button",
     type: "submit",
     id: "form-submit",
     name: "form-submit",
