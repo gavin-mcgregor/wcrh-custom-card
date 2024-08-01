@@ -23,6 +23,7 @@
   font-size: var(--wp--preset--font-size--medium);
   width: 100%;
   padding: 0.25rem 0.5rem;
+  box-sizing: border-box;
 }
 .wp-block-wcrh-custom-form textarea {
   height: 10rem;
